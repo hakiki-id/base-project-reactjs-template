@@ -1,6 +1,16 @@
-# React + Vite
+# Powered React with Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+
+
+### Features
+- frontent with antdesain 
+- typescript
+- Redux with ReduxToolkit 
+- Persistent state with redux-persint
+
+
 
 Currently, two official plugins are available:
 
