@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import {Provider} from "react-redux"
+import Routes from "@/routes"
+import {BrowserRouter} from "react-router"
 import {store, persistor} from "@/redux/store"
 import {PersistGate} from "redux-persist/integration/react"
 import App from "@/containers/App"
@@ -13,7 +15,9 @@ createRoot(rootElement).render(
   <StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <App />
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
       </PersistGate>
     </Provider>
   </StrictMode>,
