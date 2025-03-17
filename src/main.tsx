@@ -8,6 +8,8 @@ import {PersistGate} from "redux-persist/integration/react"
 import App from "@/containers/App"
 import React from 'react'
 import '@ant-design/v5-patch-for-react-19'; 
+import "@/assets/css/main.css"
+
 const rootElement = document.getElementById('root');
 if (!rootElement) throw new Error('Root element not found');
 

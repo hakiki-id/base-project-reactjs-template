@@ -12,10 +12,6 @@ const conStyle : React.CSSProperties = {
 
 export default function App() { 
     return (
-        // <Flex style={conStyle} justify="center" align="middle" vertical>
-        //     <h1 style={{textAlign:'center'}}>Login</h1>
-        //     <LoginPage/>
-        // </Flex>
         <><Routes/></>
     )
 }
